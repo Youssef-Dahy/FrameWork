@@ -1,0 +1,16 @@
+.btnCustome {
+  background-color: #1abc9c;
+  color: white;
+}
+input.form-control:focus {
+  box-shadow: none;
+}
+
+label {
+  color: var(--main-color);
+  margin-bottom: 7px;
+  transition: 0.6s top;
+}
+.top {
+  top: 40px !important;
+}

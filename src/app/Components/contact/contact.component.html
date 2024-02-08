@@ -1,0 +1,62 @@
+<div class="mb-4">
+  <app-star title="contact section" customColor="#2c3e50"></app-star>
+  <form action="" class="w-50 mx-auto mt-4">
+    <label
+      for="userName"
+      class="position-relative top-0"
+      [class.top]="!userName.length"
+      >userName :
+    </label>
+    <input
+      id="userName"
+      type="text"
+      class="form-control border-0 border-bottom py-3 position-relative"
+      [(ngModel)]="userName"
+      placeholder="userName"
+      name="userName"
+    />
+    <label
+      for="userAge"
+      class="position-relative top-0"
+      [class.top]="!userAge.length"
+      >userAge :
+    </label>
+    <input
+      id="userAge"
+      type="text"
+      class="form-control border-0 border-bottom py-3 position-relative"
+      [(ngModel)]="userAge"
+      placeholder="userAge"
+      name="userName"
+    />
+    <label
+      for="userEmail"
+      class="position-relative top-0"
+      [class.top]="!userEmail.length"
+      >userEmail :
+    </label>
+    <input
+      id="userEmail"
+      type="text"
+      class="form-control border-0 border-bottom py-3 position-relative"
+      [(ngModel)]="userEmail"
+      placeholder="userEmail"
+      name="userName"
+    />
+    <label
+      for="userPassword"
+      class="position-relative top-0"
+      [class.top]="!userPassword.length"
+      >userPassword :
+    </label>
+    <input
+      id="userPassword"
+      type="text"
+      class="form-control border-0 border-bottom py-3 position-relative"
+      [(ngModel)]="userPassword"
+      placeholder="userPassword"
+      name="userName"
+    />
+    <button class="btn btnCustome mt-4">send Message</button>
+  </form>
+</div>
