@@ -19,7 +19,7 @@ export class NavbarComponent {
   @HostListener('window:scroll')
   animation(): void {
     window.scrollY > 30
-      ? this.nav.nativeElement.classList.remove('py-4')
-      : this.nav.nativeElement.classList.add('py-4');
+      ? this.nav.nativeElement.classList.remove('py-3')
+      : this.nav.nativeElement.classList.add('py-3');
   }
 }
